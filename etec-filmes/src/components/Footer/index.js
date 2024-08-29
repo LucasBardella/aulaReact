@@ -1,11 +1,11 @@
-import styles from './Footer.module.css'
+import styles from "./Footer.module.css";
 
-function Footer(){
+function Footer() {
     return (
         <footer className={styles.footer}>
-            <h2>Desenvolvido por Lucas França Bardella &reg; 2024</h2>
+            <h2>EtecFlix &copy; Desenvolvido por Lucas França Bardella 2024</h2>
         </footer>
     );
-    }
+}
 
 export default Footer;

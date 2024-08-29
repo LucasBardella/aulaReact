@@ -1,19 +1,9 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Banner from "./components/Banner";
-import Container from "./components/Container";
+import AppRoutes from "./routes";
 
 function App() {
+
   return (
-    <>
-      <Header/>
-      <Banner image="home" />
-      <Container>
-      <h1>ETEC MCM</h1>
-      <p>Teste de react</p>
-      </Container>
-      <Footer/>
-    </>
+    <AppRoutes />
   );
 }
 

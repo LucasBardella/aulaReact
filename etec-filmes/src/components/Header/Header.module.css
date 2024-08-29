@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 9999;
 }
 
 .header span {
@@ -20,5 +21,25 @@
     text-decoration: none;
     color: #fff;
     padding-inline: 1rem;
-    font-size: 1.125rem; /* 18px = 1.125rem; */
+    font-size: 1.125rem; 
+}
+
+
+@media (max-width: 480px) {
+    .header span {
+        font-size: 1.5rem;
+    }
+    .header a {
+        font-size: 0.95rem;
+        padding-inline: 0.5rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .header span {
+        font-size: 1.5rem;
+    }
+    .header a {
+        font-size: 0.75rem;
+    }
 }
